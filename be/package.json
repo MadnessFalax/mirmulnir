@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "vaj-project-be",
+  "version": "1.0.0",
+  "description": "https://docs.google.com/document/d/1mbYYzY0j7Xq8KX8a2ei2_Ta1AQUWpfcpD0tORZt8AD4/edit?usp=sharing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo test",
+    "prettier": "prettier --write .",
+    "dev": "node --watch server.js",
+    "mock_db": "node mock-db.js",
+    "prisma_init": "npx prisma init --datasource-provider sqlite",
+    "schema_update": "npx prisma migrate dev --name schema_update"
+  },
+  "keywords": [
+    "javascript",
+    "react"
+  ],
+  "author": "TEM0017, AUJ0009",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prisma": "^5.13.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
