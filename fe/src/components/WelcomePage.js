@@ -19,10 +19,10 @@ export function WelcomePage() {
                     <Card sx={{ marginX: 5, marginTop: 5 }}>
                         <CardMedia src="/profile-placeholder.jpg" component="img"></CardMedia>
                         <Typography variant="h5" sx={{ textAlign: 'center', marginTop: 5 }}>
-                            Petr Aujezdský
+                            Name placeholder
                         </Typography>
                         <Typography variant="subtitle1" sx={{ textAlign: 'center', marginY: 3 }}>
-                            Student at VŠB - Technical University of Ostrava
+                            Info placeholder
                         </Typography>
                     </Card>
                 </Grid2>
@@ -30,10 +30,10 @@ export function WelcomePage() {
                     <Card sx={{ marginX: 5, marginTop: 5 }}>
                         <CardMedia src="/profile-placeholder.jpg" component="img"></CardMedia>
                         <Typography variant="h5" sx={{ textAlign: 'center', marginTop: 5 }}>
-                            Jakub Temr
+                            Name placeholder
                         </Typography>
                         <Typography variant="subtitle1" sx={{ textAlign: 'center', marginY: 3 }}>
-                            Student at VŠB - Technical University of Ostrava
+                            Info placeholder
                         </Typography>
                     </Card>
                 </Grid2>
